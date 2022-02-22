@@ -5,8 +5,8 @@ import serve from 'rollup-plugin-serve';
 import livereload from 'rollup-plugin-livereload';
 
 export default {
-    input: './src/index.js', //ключевой файл
-    output: {  //после сборки проекта
+    input: './src/index.js',
+    output: {
         file: './build/bundle.js',
         format: 'iife',
         assetFileNames: "[name]-[hash][extname]"
